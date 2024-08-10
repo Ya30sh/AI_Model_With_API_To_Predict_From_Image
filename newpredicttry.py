@@ -9,9 +9,9 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS if needed for cross-origin requests
 
 # Load the saved models
-tomato_model = tf.keras.models.load_model('AIModel/Tomato_Disease_Model.h5')
-potato_model = tf.keras.models.load_model('AIModel/Potato_Disease_Model.h5')
-pepper_bell_model = tf.keras.models.load_model('AIModel/Pepper_Bell_Disease_Model.h5')
+tomato_model = tf.keras.models.load_model('Tomato_Disease_Model.h5')
+potato_model = tf.keras.models.load_model('Potato_Disease_Model.h5')
+pepper_bell_model = tf.keras.models.load_model('Pepper_Bell_Disease_Model.h5')
 
 # Define the class names for the models
 tomato_classes = [
