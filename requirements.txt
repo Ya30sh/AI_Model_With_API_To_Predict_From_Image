@@ -1,4 +1,4 @@
-Flask
-Flask-CORS
+flask
+flask_cors
 tensorflow
 numpy
